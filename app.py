@@ -18,7 +18,10 @@ import func_module_as
 # date_xmas = '{}년 {}월 {}일'.format(x_mas.year , x_mas.month ,x_mas.day)
 # print(date_xmas)
 
-ndate = func_module_as.date_now()
-print(ndate)
+# ndate = func_module_as.date_now()
+# print(ndate)
 
-func_module_as.remain_date()
+# func_module_as.remain_date()
+
+re_date = func_module_as.remain_date_input()
+print(re_date)
